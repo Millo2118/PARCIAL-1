@@ -2,7 +2,7 @@
 Table Proveedor {
     id_proveedor integer [primary key, not null]
     nombre varchar(100) [not null]
-    materia_prima materia_prima [not null]
+    materiaprima varchar(100) [not null]
     telefono varchar(20)
 }
 
