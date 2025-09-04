@@ -37,7 +37,7 @@ Table Pedido {
     id_empleado integer [not null, ref: > Empleado.id_empleado]
 }
 
-Table Detalle_Pedido {
+Table DetallePedido {
     id_detalle integer [primary key, not null]
     id_pedido integer [not null, ref: > Pedido.id_pedido]
     id_producto integer [not null, ref: > Producto.id_producto]
